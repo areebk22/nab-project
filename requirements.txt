@@ -1,7 +1,15 @@
-Cython==0.29.14
-pandas==0.23.3
-simplejson==3.11.1
-boto3==1.9.134
-scikit-learn==0.21.1; python_version >= '3.5'
-scikit-learn==0.20.1; python_version < '3.5'
-plotly==2.0.0
+Cython>=0.29.30
+pandas>=1.0.0
+simplejson>=3.11.1
+boto3>=1.9.134
+scikit-learn>=1.0.0
+plotly>=5.0.0
+numpy>=1.21.0
+scipy>=1.7.0
+# Cython>=0.29.30
+# pandas>=1.0.0
+# simplejson==3.11.1
+# boto3==1.9.134
+# scikit-learn==0.21.1; python_version >= '3.5'
+# scikit-learn==0.20.1; python_version < '3.5'
+# plotly==2.0.0

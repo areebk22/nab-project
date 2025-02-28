@@ -65,7 +65,7 @@ class ExposeDetector(AnomalyDetector):
     # with expose model. The similarity measure, calculated via inner
     # product, is the likelihood of data point being normal. Resulting
     # anomaly scores are in the range of -0.02 to 1.02.
-    anomalyScore = numpy.asscalar(1 - numpy.inner(inputFeature, exposeModel))
+    anomalyScore = (1 - numpy.inner(inputFeature, exposeModel)).item()
     anomalyScore = (anomalyScore + 0.02) / 1.04
     self.timestep += 1
 
