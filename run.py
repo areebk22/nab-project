@@ -188,6 +188,8 @@ if __name__ == "__main__":
     from nab.detectors.earthgecko_skyline.earthgecko_skyline_detector import EarthgeckoSkylineDetector
   if "ARTime" in args.detectors:
     from nab.detectors.ARTime.ARTime_detector import ARTimeDetector
-
+  if "TimeSeriesTransformer" in args.detectors:
+    from nab.detectors.transformer.transformer_detector import TimeSeriesTransformerDetector
+    
   if args.skipConfirmation or checkInputs(args):
     main(args)
