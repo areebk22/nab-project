@@ -1,3 +1,9 @@
+nab_env/
+*.egg-info/
+.DS_Store
+.venv/
+env/
+
 *.bak
 .DS_Store
 *.pyc
