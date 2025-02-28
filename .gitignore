@@ -8,7 +8,6 @@ env/
 .DS_Store
 *.pyc
 
-data_test/
 deprecated/
 build/
 dist/
