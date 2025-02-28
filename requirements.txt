@@ -6,6 +6,8 @@ scikit-learn>=1.0.0
 plotly>=5.0.0
 numpy>=1.21.0
 scipy>=1.7.0
+torch>=1.9.0
+
 # Cython>=0.29.30
 # pandas>=1.0.0
 # simplejson==3.11.1
